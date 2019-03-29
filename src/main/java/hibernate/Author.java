@@ -71,7 +71,7 @@ public class Author {
 
 //    without extra table
 
-//    @OneToMany(mappedBy = "author")
+//    @OneToMany(mappedBy = "author",cascade = CascadeType.PERSIST)
 //    Collection<Book> book=new HashSet<>();
 
 

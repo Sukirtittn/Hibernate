@@ -143,6 +143,13 @@ public class Main {
 //      delete operation
      //   session.delete(author5);
 
+//        question 16
+//        now we don't have to save book object separately!!
+//        session.persist(author);
+//        session.persist(author1);
+//        session.persist(author2);
+//        session.persist(author3);
+
         session.getTransaction().commit();
       //  Author author6 = session.get(Author.class, 1);
         session.close();
